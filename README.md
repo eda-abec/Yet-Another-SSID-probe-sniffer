@@ -1,10 +1,9 @@
-my simple python scripts
+# A Simple SSID Probes Sniffer
+Based on https://github.com/adamziaja/python/blob/master/probe_request_sniffer.py
 
-    $ cat /etc/issue.net 
-    Ubuntu 14.04 LTS
-    $ /usr/bin/env python --version
-    Python 2.7.6
-    $ /usr/bin/env python3 --version
-    Python 3.4.0
-    $ date +%Y-%m-%d
-    2014-11-11
+Based on Scapy. Nothing special.
+
+## Usage
+Just `make`. It runs `make prepare`, which puts the interface into monitor mode and `make run`, which runs the script.
+
+Optionally specify `IFACE` as the interface name
